@@ -37,3 +37,7 @@ const convertTitleCase = (title) => {
 
 console.log(convertTitleCase('this is a nice title'));
 console.log(convertTitleCase('this is a LONG title'));
+
+
+//Check if this is a number
+console.log(Number.isFinite('20'))
