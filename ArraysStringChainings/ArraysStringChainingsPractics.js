@@ -41,3 +41,9 @@ console.log(convertTitleCase('this is a LONG title'));
 
 //Check if this is a number
 console.log(Number.isFinite('20'))
+
+//Check if this is an integer
+console.log(Number.isInteger('20'))
+
+//numbers after the dot
+console.log((2.77777).toFixed(5))
